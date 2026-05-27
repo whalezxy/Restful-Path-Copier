@@ -16,8 +16,7 @@
 ## 本地打包（生成可安装 ZIP）
 > 由于不同机器网络与 Gradle 环境不同，建议直接在 IDEA 中执行。
 
-1. 用 IntelliJ IDEA 打开本项目目录：
-   - `C:\Users\38927\Documents\Restful Path`
+1. 用 IntelliJ IDEA 打开本项目目录。
 2. 等待 Gradle 同步完成。
 3. 在 Gradle 面板执行任务：
    - `Tasks -> intellij platform -> buildPlugin`
