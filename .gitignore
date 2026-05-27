@@ -1,0 +1,21 @@
+# Gradle
+.gradle/
+build/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# IntelliJ Platform plugin cache/work dirs
+.intellijPlatform/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keep Gradle wrapper jar/properties/scripts
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+!gradlew
+!gradlew.bat

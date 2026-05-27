@@ -1,0 +1,11 @@
+<idea-plugin>
+    <id>com.restfulpath.plugin</id>
+    <name>Restful Path Copier</name>
+    <vendor email="support@example.com">Restful Path</vendor>
+    <description>Copy full Spring controller request paths from gutter icons.</description>
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.java</depends>
+    <extensions defaultExtensionNs="com.intellij">
+        <codeInsight.lineMarkerProvider language="JAVA" implementationClass="com.restfulpath.plugin.SpringRequestLineMarkerProvider"/>
+    </extensions>
+</idea-plugin>
